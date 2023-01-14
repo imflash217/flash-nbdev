@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "flash-nbdev"
+  site-url: "https://imflash217.github.io/flash-nbdev"
+  description: "Nbdev trial for FlashAI"
+  repo-branch: main
+  repo-url: "https://github.com/imflash217/flash-nbdev"

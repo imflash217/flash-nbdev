@@ -5,4 +5,9 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://imflash217.github.io',
                 'git_url': 'https://github.com/imflash217/flash-nbdev',
                 'lib_path': 'flash_nbdev'},
-  'syms': {'flash_nbdev.core': {'flash_nbdev.core.foo': ('core.html#foo', 'flash_nbdev/core.py')}}}
+  'syms': { 'flash_nbdev.core': { 'flash_nbdev.core.HelloSayer': ('core.html#hellosayer', 'flash_nbdev/core.py'),
+                                  'flash_nbdev.core.HelloSayer.__init__': ('core.html#hellosayer.__init__', 'flash_nbdev/core.py'),
+                                  'flash_nbdev.core.HelloSayer.say': ('core.html#hellosayer.say', 'flash_nbdev/core.py'),
+                                  'flash_nbdev.core.bar': ('core.html#bar', 'flash_nbdev/core.py'),
+                                  'flash_nbdev.core.foo': ('core.html#foo', 'flash_nbdev/core.py'),
+                                  'flash_nbdev.core.preprocess': ('core.html#preprocess', 'flash_nbdev/core.py')}}}
